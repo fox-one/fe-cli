@@ -1,0 +1,33 @@
+{
+  "name": "@foxone/cli",
+  "version": "0.0.1",
+  "description": "The frontend scoffold for FoxONE FE team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fox-one/fe-cli.git"
+  },
+  "keywords": [
+    "scoffold",
+    "cli",
+    "foxone",
+    "fox"
+  ],
+  "author": "frontend@fox.one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fox-one/fe-cli/issues"
+  },
+  "homepage": "https://github.com/fox-one/fe-cli#readme",
+  "dependencies": {
+    "@omni-door/cli": "~2.3.1",
+    "@omni-door/utils": "~1.2.3",
+    "chalk": "3.0.0",
+    "commander": "5.1.0",
+    "inquirer": "7.0.0",
+    "leven": "3.1.0"
+  }
+}
